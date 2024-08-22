@@ -1,0 +1,22 @@
+{
+    "name": "my-story-protocol-example-beta",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commercial": "npx ts-node ./scripts/commercialExample.ts",
+        "non-commercial": "npx ts-node ./scripts/nonCommercialExample.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@story-protocol/core-sdk": "1.0.0-rc.16",
+        "ts-node": "^10.9.2",
+        "viem": "^2.8.12"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "prettier": "3.2.5"
+    }
+}
